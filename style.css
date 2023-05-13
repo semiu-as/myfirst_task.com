@@ -1,0 +1,137 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.Meme-Generator
+{
+    height: 65px;
+    width: 100%;
+    background-color: #A818DA;
+    box-sizing: border-box;
+    padding-left: 10%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.logo
+{
+    height: 65px;
+    width: 25%;
+    /* background-color: black; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: segoe UI;
+}
+
+.par
+{
+    height: 65px;
+    width: 30%;
+    /* background-color: yellow; */
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+    font-family: segoe UI;
+}
+
+.arc
+{
+    color: white;
+    text-decoration: none;
+}
+
+.arc:hover
+{
+    text-decoration: underline;
+    color: white;
+}
+
+
+/* css for section  */
+
+.section
+{
+    padding: 30px 10%;
+    background-color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    box-sizing: border-box;
+    column-gap: 40px;
+    row-gap: 30px;
+}
+
+.input
+{
+    height: 40px;
+    padding: 10px;
+    width: 45%;
+    border: 1px solid #D5D4D8;
+    border-radius: 5px;
+    background-color: white;
+    display: flex;
+    align-items: center;
+    font-family: segoe UI;
+    font-size: 20px;
+}
+
+.label
+{
+    height: 50px;
+    width: 100%;
+    background-color: #A818DA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: segoe UI;
+    font-size: 20px;
+    color: white;
+    border-radius: 5px;
+}
+
+.img
+{
+    height: 500px;
+    width: 100%;
+    background-image: url(https://images.pexels.com/photos/5900267/pexels-photo-5900267.jpeg?auto=compress&cs=tinysrgb&w=600);
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-radius: 5px;
+}
+
+.overlay
+{
+    height: 500px;
+    width: 100%;
+    background-color: rgba(red, green, blue, 0.6);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.details
+{
+    font-size: 40px;
+    font-family: 'Calibri';
+    
+}
+
+
+
+
+
+
+
+
+
+
+
+
